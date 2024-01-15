@@ -15,8 +15,7 @@ for js, I created...
 2. **Double pendulum (2022)** - Using the Lagrange method to find the physics behind the chaotic Double pendulum problem, using js to simulate it.
 
 for HTML, I created...
-
-# since I was unable to add both css and js to HTML in Github, I only included HTML file and website link.
+since I was unable to add both css and js to HTML in Github, I only included HTML file and website link.
 
 1. **Math Quiz (2021)** - I made my math quiz, inspired by AMC && UKMT && KMO. I made it to challenge my friends. This is my link ( https://4ce5be56-0dc3-47f3-88a7-e4664b39cae0-00-7aekbx6azrwr.global.replit.dev/ )
 2. **AI texting (2023)** - I made AI texting website, using the API key from chat GPT. This is my link (https://f78a0a2f-c3e5-498d-b906-eae8d7ca63ad-00-fvtb9ziktuo5.global.replit.dev/)
