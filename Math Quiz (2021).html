@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Math Quiz by Ryan Park 8C</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+  <!--This part shows the title of my quiz -->
+
+  
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>ISMA</h1>
+<h1>International Sejin's Math Assesment for junior</h1>
+</div>
+<h2>You should click submit button for each long responce question. For example, for question 11, you should click Q11 button.</h2>
+
+
+  
+<form id="form1">
+<h3>Q1. What is the value of 113 + 226 ?</h3>
+  <label for = "Q1_Choice_01"><input type="radio" name="Q1" value="10" id = "Q1_Choice_01>"</label>339
+  <label for = "Q1_Choice_02"><input type="radio" name="Q1" value="0" id = "Q1_Choice_02>"</label>338
+  <label for = "Q1_Choice_03"><input type="radio" name="Q1" value="0" id = "Q1_Choice_03>"</label>340
+  <label for = "Q1_Choice_04"><input type="radio" name="Q1" value="0" id = "Q1_Choice_04>"</label>341
+
+  <!--This part shows my 1th question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+  <h3>Q2. Which number is equivalent to 3^(4)÷3^(2)</h3>
+  <label for = "Q2_Choice_01"><input type="radio" name="Q2" value="0" id = "Q2_Choice_01>"</label>1
+  <label for = "Q2_Choice_02"><input type="radio" name="Q2" value="0" id = "Q2_Choice_02>"</label>3
+  <label for = "Q2_Choice_03"><input type="radio" name="Q2" value="10" id = "Q2_Choice_03>"</label>9
+  <label for = "Q2_Choice_04"><input type="radio" name="Q2" value="0" id = "Q2_Choice_04>"</label>27
+
+  <!--This part shows my 2nd question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+
+  <h3>Q3. I am an odd number. Take away one letter and I become even. What number am I?</h3>
+
+  <input type="text" placeholder="Here" id="num">
+
+<input type="button" value="Q3" onclick = {ques3()}> 
+
+  <!--This part shows my 3rd question. This is long respond answer. user's respond will be saved and send to script.js -->
+
+
+  
+  <h3>Q4. Using only an addition, how do you add eight 8’s and get the number 1000?</h3>
+
+    <input type="text" placeholder="Here" id="way">
+
+<input type="button" value="Q4" onclick = {ques4()}> 
+
+  <!--This part shows my 4th question. This is long respond answer. user's respond will be saved and send to script.js -->
+
+
+  
+  <h3>Q5. What is the solution for x^2 + 6x +5 = 0?</h3>
+  <label for = "Q5_Choice_01"><input type="radio" name="Q5" value="0" id = "Q5_Choice_01>"</label>1,5
+  <label for = "Q5_Choice_02"><input type="radio" name="Q5" value="0" id = "Q5_Choice_02>"</label>-1,5
+  <label for = "Q5_Choice_03"><input type="radio" name="Q5" value="0" id = "Q5_Choice_03>"</label>1,-5
+  <label for = "Q5_Choice_04"><input type="radio" name="Q5" value="10" id = "Q5_Choice_04>"</label>-1,-5
+
+<!--This part shows my 5th question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+
+
+  
+
+  
+
+
+  
+  <h3>Q6. David has a rectangular garden that measures 6 feet by 8 feet. He will plant the entire garden with strawberry plants. David is able to plant 4 strawberry plants per square foot, and he harvests an average of 10 strawberries per plant. How many strawberries can he expect to harvest?</h3>
+  
+  <label for = "Q6_Choice_01"><input type="checkbox" name="Q6" value="0" id = "Q6_Choice_01>"</label>560
+  <label for = "Q6_Choice_02"><input type="checkbox" name="Q6" value="0" id = "Q6_Choice_02>"</label>960
+  <label for = "Q6_Choice_03"><input type="checkbox" name="Q6" value="10" id = "Q6_Choice_03>"</label>1920
+  <label for = "Q6_Choice_04"><input type="checkbox" name="Q6" value="0" id = "Q6_Choice_04>"</label>3680
+
+  <!--This part shows my 6th question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+
+
+  
+  <h3>Q7. Rectangle ABCD is inscribed in a semicircle with diameter FE,AE as shown in the figure. Let DA=16, and let FD=AE=9. What is the area of ABCD?</h3>
+
+  <img src="circle.png" width="580" height="250">
+
+  
+  <label for = "Q7_Choice_01"><input type="radio" name="Q7" value="10" id = "Q7_Choice_01>"</label>240
+  <label for = "Q7_Choice_02"><input type="radio" name="Q7" value="0" id = "Q7_Choice_02>"</label>286
+  <label for = "Q7_Choice_03"><input type="radio" name="Q7" value="0" id = "Q7_Choice_03>"</label>312
+  <label for = "Q7_Choice_04"><input type="radio" name="Q7" value="0" id = "Q7_Choice_04>"</label>228
+
+
+  <!--This part shows my 7th question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+
+  
+  <h3>Q8. David is teacher. Five different awards are to be given to three students. Every student will receive at least one award. Then, how many different ways can the awards be distributed?</h3>
+  <label for = "Q8_Choice_01"><input type="radio" name="Q8" value="0" id = "Q8_Choice_01>"</label>120
+  <label for = "Q8_Choice_02"><input type="radio" name="Q8" value="10" id = "Q8_Choice_02>"</label>150
+  <label for = "Q8_Choice_03"><input type="radio" name="Q8" value="0" id = "Q8_Choice_03>"</label>180
+  <label for = "Q8_Choice_04"><input type="radio" name="Q8" value="0" id = "Q8_Choice_04>"</label>210
+
+
+  <!--This part shows my 8th question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+
+
+  
+  <h3>Q9. What is the median of these numbers?</h3>
+  <h3>1,2,3,.....2019,2020,1^2,2^2,3^3,...2019^2,2020^2</h3>
+
+<input type="text" placeholder="Here" id="med">
+
+<input type="button" value="Q9" onclick = {ques9()}> 
+
+  <!--This part shows my 9th question. This is long respond answer. user's respond will be saved and send to script.js -->
+
+  
+  <h3>Q10. How many positive integers n (which is less 1000) is not divisible by 3 in this equation?</h3>
+  <img src="gauss.png" width="200" height="100">
+
+  
+  <label for = "Q10_Choice_01"><input type="checkbox" name="Q10" value="0" id = "Q10_Choice_01>"</label>21
+  <label for = "Q10_Choice_02"><input type="checkbox" name="Q10" value="10" id = "Q10_Choice_02>"</label>22
+  <label for = "Q10_Choice_03"><input type="checkbox" name="Q10" value="0" id = "Q10Choice_03>"</label>23
+  <label for = "Q10_Choice_04"><input type="checkbox" name="Q10" value="0" id = "Q10_Choice_04>"</label>24
+
+<!--This part shows my 9th question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+  
+  <h3>Q11. What is the vaule of y?</h3>
+  <img src="sinx.png" width="550" height="200">
+
+  <input type="text" placeholder="Here" id="sin">
+
+<input type="button" value="Q11" onclick = {ques11()}> 
+
+  <!--This part shows my 11th question. This is long respond answer. user's respond will be saved and send to script.js -->
+
+
+  
+  <h3>Q12. Bonus question - What is the best subject?</h3>
+  <label for = "Q12_Choice_01"><input type="radio" name="Q12" value="10" id = "Q12_Choice_01>"</label>computer science
+  <label for = "Q12_Choice_02"><input type="radio" name="Q12" value="10" id = "Q12_Choice_02>"</label>computer science
+  <label for = "Q12_Choice_03"><input type="radio" name="Q12" value="10" id = "Q12Choice_03>"</label>computer science
+  <label for = "Q12_Choice_04"><input type="radio" name="Q12" value="10" id = "Q12_Choice_04>"</label>computer science
+
+  <!--This part shows my 12th question. It makes 4 diffrent options. If the user chooses the right option, it's value is 10. -->
+
+
+<button type="submit" value="Submit">Submit</button>
+</form>
+
+  <!--This part shows my submit button. If the user click this button, the result comes out. -->
+
+<p>Your grade is: <span id="grade">__</span> / 120</p>
+<p id="grade2"></p>
+
+  <!--This part shows user's grade. The result will comes out in this part. -->
+  
+<h2>RESULTS</h2>
+
+<p>Question 1</p><p id="output1"></p>
+<p>Question 2</p><p id="output2"></p>
+<p>Question 3</p><p id="output3"></p>
+<p>Question 4</p><p id="output4"></p>
+<p>Question 5</p><p id="output5"></p>
+<p>Question 6</p><p id="output6"></p>
+<p>Question 7</p><p id="output7"></p>
+<p>Question 8</p><p id="output8"></p>
+<p>Question 9</p><p id="output9"></p>
+<p>Question 10</p><p id="output10"></p>
+<p>Question 11</p><p id="output11"></p>
+<p>Question 12</p><p id="output12"></p>
+
+<!--This part also shows user's grade. This part will show whether user's answer is correct or wrong. -->
+
+
+
+
+
+  
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
