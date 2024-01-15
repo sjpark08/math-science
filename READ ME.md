@@ -1,0 +1,24 @@
+**Welcome to my CS portforlio!**
+
+I was interested in python, HTML, and js
+
+for python, I created...
+
+1. **collatz conjecture (2020)** - Attempt to find pattern behind collatz conjecture via python.
+2. **Equation solver (2021)** - Using Synthetic division to solve cubic equations.
+3. **Grade Management programme (2022)** - (Not directly math nor science but applying my knowledge on it)
+4. **(AI project 1) Backward-Propagation (2023-2024) && Neural Network - Poster.png** - Researched Neural Networks and made a poster about them. Ultimately working on my first AI project.
+
+for js, I created...
+
+1. **Lorenz attractor (2022)** - Making a simulator for Lorenz attractor using js
+2. **Double pendulum (2022)** - Using the Lagrange method to find the physics behind the chaotic Double pendulum problem, using js to simulate it.
+
+for HTML, I created...
+
+# since I was unable to add both css and js to HTML in Github, I only included HTML file and website link.
+
+1. **Math Quiz (2021)** - I made my math quiz, inspired by AMC && UKMT && KMO. I made it to challenge my friends. This is my link ( https://4ce5be56-0dc3-47f3-88a7-e4664b39cae0-00-7aekbx6azrwr.global.replit.dev/ )
+2. **AI texting (2023)** - I made AI texting website, using the API key from chat GPT. This is my link (https://f78a0a2f-c3e5-498d-b906-eae8d7ca63ad-00-fvtb9ziktuo5.global.replit.dev/)
+
+**Thank you**
